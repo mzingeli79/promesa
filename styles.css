@@ -132,7 +132,7 @@ textarea {
 
 @media only screen and (max-width:480px){
     header {
-        height: 65vh;
+        height: 60vh;
         background-position: left;
     }
     .header-text {
