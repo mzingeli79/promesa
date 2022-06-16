@@ -143,10 +143,31 @@ textarea {
 @media only screen and (max-width:480px){
     *{
         scroll-behavior: smooth;
+        font-family: 'Poppins';
+    }
+    nav{
+        background-color: rgb(32, 32, 32);
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+    }
+    nav > ul {
+        height: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    ul > li {
+        list-style: none;
+    }
+    ul > li > a{
+        text-decoration: none;
+        color: #fff;
     }
     header {
         height: 100vh;
-        background-position: left;
+        background-position: top;
         display: flex;
         align-items: center;
     }
