@@ -213,6 +213,8 @@ textarea {
         text-align: left;
         font-size: 1.5em;
         padding: 5%;
+        line-height:2rem;
+        font-family:'Poppins light';
     }
     .ceo {
         font-size: 0.8em;
