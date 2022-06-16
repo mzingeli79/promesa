@@ -146,7 +146,7 @@ textarea {
     }
     header {
         height: 100vh;
-        background-position: left;
+        background-position: top;
         display: flex;
         align-items: center;
     }
