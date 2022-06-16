@@ -153,7 +153,7 @@ textarea {
         width: 100%;
     }
     nav > ul {
-        height: 30px;
+        height: 45px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
