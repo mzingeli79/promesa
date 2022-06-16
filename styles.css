@@ -167,7 +167,7 @@ textarea {
     }
     header {
         height: 100vh;
-        background-position: top;
+        background-position: center;
         display: flex;
         align-items: center;
     }
@@ -226,7 +226,7 @@ textarea {
        border-radius:0;
    }
    form h1 {
-       padding: 1em 0 0 0;
+       padding: 2em 0 0 0;
        font-size: 1.5em;
    }
    .input {
