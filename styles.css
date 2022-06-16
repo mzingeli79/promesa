@@ -119,6 +119,16 @@ textarea {
     text-transform: uppercase;
     font-size: 0.8em;
     letter-spacing: 1em;
+    transition: all 1s ease;
+}
+.submit-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+.submit-btn:active {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid gray;
 }
 .social-media-icons {
     display: flex;
@@ -131,9 +141,14 @@ textarea {
 }
 
 @media only screen and (max-width:480px){
+    *{
+        scroll-behavior: smooth;
+    }
     header {
         height: 100vh;
         background-position: left;
+        display: flex;
+        align-items: center;
     }
     .header-text {
         padding: 18% 2% 18% 2%;
@@ -145,12 +160,13 @@ textarea {
         font-size: 1.2em;
     }
     .company-profile {
-        display: block;
-        margin: 0 0 -50% 0;
-        height:100vh;
+        display: flex;
+        align-items:flex-start;
+        
+        height: 100vh;
     }
     .profile {
-        height: 50vh;
+        height: 100%;
         padding: 1% 2%;
         font-size: 1em;
     }
@@ -166,7 +182,13 @@ textarea {
         display: none;
     }
     .moto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
         height: 100vh;
+        width: 100%;
         text-align: left;
         font-size: 1.5em;
         padding: 5%;
@@ -200,3 +222,15 @@ textarea {
         margin-top: -20%;
     }
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
