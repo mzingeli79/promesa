@@ -147,6 +147,7 @@ textarea {
     .company-profile {
         display: block;
         margin: 0 0 -50% 0;
+        height:100vh;
     }
     .profile {
         height: 50vh;
@@ -165,7 +166,7 @@ textarea {
         display: none;
     }
     .moto {
-        height: 68%;
+        height: 100vh;
         text-align: left;
         font-size: 1.5em;
         padding: 5%;
@@ -174,7 +175,7 @@ textarea {
         font-size: 0.8em;
     }
    .contact-form{
-        height: 65vh;
+        height: 100vh;
     }
    form {
        width:100%;
